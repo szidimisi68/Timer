@@ -1,0 +1,85 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#kor{
+    margin: 100px auto 0 auto;
+    border-radius: 200px;
+    border: solid 30px rgb(80, 80, 80);
+    width: 300px;
+    height: 300px;
+    rotate: 0deg;
+    transition: 0.1s linear;
+}
+
+#kiskor{
+    background-color: white;
+    width: 10px;
+    height: 36px;
+    margin: -33px auto;
+    border-radius: 5px;
+    transform-origin: center center;
+    transition: 1s linear;
+}
+
+#adatok{
+    margin: -390px auto 0 auto;
+    border-radius: 200px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+
+    position: relative;
+    z-index: 99;
+}
+
+#icon {
+    margin: 90px auto 0 auto;
+    margin-top: 180px;
+    width: 50px;
+    height: 50px;
+    background-image: url(start.png);
+    cursor: pointer;
+}
+
+#time{
+    font-size: 30px;
+    color: rgb(80, 80, 80);
+
+}
+
+#lista{
+    margin: auto;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: rgb(59, 59, 59);
+
+}
+#container{
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgba(94, 255, 45, 40%), rgba(43, 8, 243, 40%));
+    padding: 30px;
+    width: 500px;
+    margin: auto;
+    border-radius: 30px;
+    color: lightblue;
+    border: 3px solid #9f9ff5;
+}
+
+button{
+    height: 40px;
+    width: 300px;
+    border-radius: 0;
+    font-size: 16px;
+    font-stretch: expanded;
+    background-color: rgb(162, 210, 255);
+    border: solid 2px;
+}
+
+input{
+    border-radius: 0px;
+}
